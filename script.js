@@ -7,7 +7,7 @@ function makePrediction() {
         document.getElementById("predictionResult").innerText = "Please enter a valid year.";
         return;
     }
-    fetch('https://energy-backend-4-kdqy.onrender.com/predict', {
+    fetch('https://energy-backend-8.onrender.com/predict', {
         method: 'POST',  
         headers: {
             'Content-Type': 'application/json',  
